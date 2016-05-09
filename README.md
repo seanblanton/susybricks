@@ -24,6 +24,19 @@ or if you'd like to just grab the repo
 git clone git@github.com:seanblanton/susybricks.git
 ````
 
+
+## Usage
+
+Import the module 
+````
+@import "bricks/bricks";
+````
+
+## Authors
+
+[Sean Blanton](http://www.sean-blanton.com)
+
+
 ---
 
 [MIT license](LICENSE.md)
