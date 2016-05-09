@@ -1,6 +1,6 @@
 {
   "name": "susybricks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Atomic CSS Classes for Susy",
   "keywords": [
     "atomic css",
@@ -21,6 +21,5 @@
     "name": "Sean Blanton",
     "url": "http://www.sean-blanton.com"
   },
-    "license": "MIT"
-
+  "license": "MIT"
 }
