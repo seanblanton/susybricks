@@ -1,0 +1,20 @@
+// settings.scss
+// Defines breakpoints for Susy breakpoint classes
+
+// Breakpoints Settings
+// --------------------------------------------------
+
+
+$susy-columns: 12; // Number of columns in susy grid
+
+
+$breakpoints: (
+  'xs': null, // always leave this at NULL
+  'sm': 40rem, 
+  'md': 64rem,
+  'lg': 85rem,
+);
+
+
+
+

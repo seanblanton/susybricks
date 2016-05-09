@@ -1,0 +1,39 @@
+// 	bricks.scss
+//	Susy extension to atomic breakpoint classes
+//----------------------------------------------------
+
+@import
+  "lib/settings",
+  "lib/utils";
+
+
+// Generate atomic classes for Susy LAST function
+@for $i from 1 through $susy-columns {
+	 .last-#{$i} { @include span(last $i); }
+}
+
+@include generate-bp-prefixes {
+	// Generate atomic classes for Susy SPAN function
+	@for $i from 1 through $susy-columns {
+ 		 &span#{$i} { @include span($i of $susy-columns); }
+	}
+
+	// Generate atomic classes for Susy PUSH function
+	@for $i from 1 through $susy-columns {
+ 		 &push#{$i} { @include push($i of $susy-columns); }
+	}
+
+	// Generate atomic classes for Susy PULL function
+	@for $i from 1 through $susy-columns {
+ 		 &pull#{$i} { @include pull($i of $susy-columns); }
+	}
+
+}
+
+
+
+
+
+
+
+

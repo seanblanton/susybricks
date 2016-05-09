@@ -1,0 +1,34 @@
+// utils.scss
+// Defines breakpoint functions and prefixes for Bricks breakpoint classes
+
+// Influenced by Buzzfeed's SOLID 
+// http://solid.buzzfeed.com/
+// --------------------------------------------------
+
+@mixin respond-to($breakpoint) {
+  @if (map-get($breakpoints, $breakpoint)) == null {
+    @content;
+  } @else {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+}
+
+
+@mixin generate-bp-prefixes {
+
+  @each $breakpoint, $breakpoint-value in $breakpoints {
+    $prefix: "#{$breakpoint}-";
+
+    @include respond-to($breakpoint) {
+      .#{$prefix} {
+        @content;
+      }
+    }
+   }
+
+}
+
+
+

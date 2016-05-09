@@ -1,0 +1,26 @@
+{
+  "name": "susybricks",
+  "version": "0.0.1",
+  "description": "Atomic CSS Classes for Susy",
+  "keywords": [
+    "atomic css",
+    "functional css",
+    "susy grids",
+    "css framework",
+    "css",
+    "susy bricks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seanblanton/susybricks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seanblanton/susybricks/issues"
+  },
+  "author": {
+    "name": "Sean Blanton",
+    "url": "http://www.sean-blanton.com"
+  },
+    "license": "MIT"
+
+}
