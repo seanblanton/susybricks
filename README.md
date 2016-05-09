@@ -8,6 +8,11 @@ Atomic CSS Classes for Susy <http://susy.oddbird.net/>
 Susy Bricks is a SCSS module for Susy <http://susy.oddbird.net/>  that creates atomic CSS classes to make rapid prototyping easy.
 
 
+## Credit
+
+The prefix mixin comes from Buzzfeed's SOLID <http://solid.buzzfeed.com/>
+
+
 ## Installation
 
 ```
