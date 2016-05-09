@@ -5,7 +5,7 @@ Atomic CSS Classes for Susy <http://susy.oddbird.net/>
 
 ## About
 
-Susy Bricks is a SCSS module for Susy <http://susy.oddbird.net/>  that creates atomic CSS classes to make rapid prototyping easy.
+Susy Bricks is a SCSS module for [Susy](https://github.com/oddbird/susy) <http://susy.oddbird.net/> that creates atomic CSS classes to make rapid prototyping easy.
 
 
 ## Credit
