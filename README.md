@@ -28,14 +28,14 @@ git clone git@github.com:seanblanton/susybricks.git
 ## Usage
 
 Import the module 
-````
+```css
 @import "bricks/bricks";
 ````
 
 Use the prefixes `.xs`, `.sm`, `.md`, and `.lg` in conjunction with susy's layout commands to quickly adjust layout. 
 Susy Bricks supports 4 different Susy commands: `Span()`, `Last`, `Push`, and `Pull`
 
-````
+```html
 <div class="box xs-span12 md-span6 lg-span3"> 
 ````
 
@@ -43,7 +43,7 @@ Update `/lib/settings.scss` to adjust the number of columns to fit your Susy lay
 You can extend the number of columns and breakpoints as you see fit.
 
 Example:
-````
+```css
 $susy-columns: 16; // Number of columns in susy grid
 
 
